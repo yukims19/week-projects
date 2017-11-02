@@ -6,6 +6,12 @@ const main = function(){
 		    $("#message").val('');
 		    return false;
 	  ***REMOVED***);
+
+    $("#exit").click(function(){
+		    var exit = confirm("Are you sure you want to end the session?");
+		    if(exit==true){window.location = 'chat_room.php?logout=true';***REMOVED***
+	  ***REMOVED***);
+
     function loadLog(){
 		    var oldHeight = $("#chatbox")[0].scrollHeight; //Scroll height before the request
         var a = 3;
