@@ -18,7 +18,7 @@ if(!isset($_SESSION['user'])){
     <h2>jQuery/PHP Chat</h2>
     <p id="name-area"></p>
     <div id="chat-wrap">
-     <div id="chatbox" style="height:300px; width:300px; border:solid; overflow:scroll">
+    <div id="chatbox" style="height:300px; width:300px; border:solid; overflow:scroll; background-color:#fdf6e4">
 ***REMOVED***
      /*
      if(!file_exists("log.html")){

@@ -1,0 +1,58 @@
+.message{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    max-width: 30%;
+    text-align: left;
+    margin-left: 5%;
+***REMOVED***
+.msj:before {
+    font-size:0px;
+    width: 0;
+    height: 0;
+    content: "";
+    top: -19px;
+    left: -14px;
+    position: relative;
+    border-style: solid;
+    border-width: 0 13px 13px 0;
+    border-color: transparent #ffffff transparent transparent;
+***REMOVED***
+
+
+#login_form {
+    width:30%;
+    min-width:300px;
+    position:relative;
+    left:35%;
+    top:10%;
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+    text-align:center;
+***REMOVED***
+
+h1 {
+    border:0 solid #fff;
+    border-bottom-width:1px;
+    padding-bottom:10px;
+    text-align: center;
+***REMOVED***
+
+#login_username, #login_password {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+***REMOVED***
+
+#login_submit {
+    text-align: center;
+    font-size: 20px;
+***REMOVED***

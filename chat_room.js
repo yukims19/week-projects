@@ -1,9 +1,14 @@
 const main = function(){
+    loadLog();
+
     $("#submit").click(function(){
 		    var clientmsg = $("#message").val();
         console.log(clientmsg);
-		    $.post("post.php", {text: clientmsg***REMOVED***);
-		    $("#message").val('');
+        if (clientmsg != ''){
+		        $.post("post.php", {text: clientmsg***REMOVED***);
+        ***REMOVED***;
+        $("#message").val('');
+        loadLog();// need to change: use javascript to display first, then do PHP data store. Otherwise loading is very slow!!!
 		    return false;
 	  ***REMOVED***);
 
@@ -32,7 +37,7 @@ const main = function(){
 
 
 
-    setInterval (loadLog, 150);
+//    setInterval (loadLog, 150);
 
 ***REMOVED***;
 $(document).ready(main);
