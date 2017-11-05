@@ -18,7 +18,10 @@ if(!isset($_SESSION['user'])){
     <h2>jQuery/PHP Chat</h2>
     <p id="name-area"></p>
     <div id="chat-wrap">
-    <div id="chatbox" style="height:300px; width:300px; border:solid; overflow:scroll; background-color:#fdf6e4">
+    <div class="chat_head">
+    <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+    ***REMOVED***
+    <div id="chatbox">
 ***REMOVED***
      /*
      if(!file_exists("log.html")){
@@ -32,16 +35,15 @@ if(file_exists("log.html") && filesize("log.html") > 0){
     ***REMOVED****/
 ***REMOVED***
      ***REMOVED***
-    <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
 
-    ***REMOVED***
 
+<div class="user_input">
     <form id="send-message-area" action="">
-        <p>Your message: </p>
-        <textarea id="message"></textarea>
+     <textarea id="message" placeholder="Type your message here..."></textarea>
      <input  type="button" id="submit" value="Send" />
     ***REMOVED***
-
+    ***REMOVED***
+    ***REMOVED***
 ***REMOVED***
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script type="text/javascript" src ="chat_room.js"></script>
