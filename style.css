@@ -6,22 +6,22 @@
     border: 1px solid;
     border-color: #428bca;
     border-radius:5px;
-***REMOVED***
+}
 
 /*chatbox head*/
 .chat_head{
     background-color: #428bca;
     height:10%;
-***REMOVED***
+}
 .logout{
     float:right;
     margin-top:1%;
     margin-right:2%;
-***REMOVED***
+}
 #exit{
     color:white;
     font-size:17px;
-***REMOVED***
+}
 /*chat display*/
 #chatbox{
     height:60%;
@@ -29,12 +29,12 @@
     overflow:scroll;
     background-color:white;
     position:relative;
-***REMOVED***
+}
 .user{
     font-size:18px;
     margin:5px;
 
-***REMOVED***
+}
 .message{
     background-color: #fdf6e4;
     border-radius: 5px;
@@ -44,7 +44,7 @@
     text-align: left;
     margin-left: 5%;
     font-size:23px;
-***REMOVED***
+}
 .msj:before {
     font-size:0px;
     width: 0;
@@ -56,17 +56,17 @@
     border-style: solid;
     border-width: 0 13px 13px 0;
     border-color: transparent #fdf6e4 transparent transparent;
-***REMOVED***
+}
 
 /*Chat entry*/
 .user_input{
     background-color:#f5f5f5;
     padding-bottom: 10px;
     padding-top: 10px;
-***REMOVED***
+}
 #send-message-area{
     margin-top:1em;
-***REMOVED***
+}
 #message{
     width:85%;
     height:45px;
@@ -75,7 +75,7 @@
     border: 1px solid #ddd;
     border-radius:5px;
     font-size:15px;
-***REMOVED***
+}
 #submit{
     position: absolute;
     right:5%;
@@ -89,7 +89,7 @@
     font-size: 15px;
     border-radius:5px;
     color: white;
-***REMOVED***
+}
 
 /*Login page*/
 .login{
@@ -98,7 +98,7 @@
     width:100%;
     position:absolute;
     opacity:0.3;
-***REMOVED***
+}
 #login_form {
     width:40%;
     min-width:300px;
@@ -115,20 +115,20 @@
     border-width: 5px;
     box-shadow:0 1px 0 #cfcfcf;
     text-align:center;
-***REMOVED***
+}
 
 h1 {
     border:0 solid #fff;
     border-bottom-width:5px;
     padding-bottom:10px;
     text-align: center;
-***REMOVED***
+}
 
 #login_username, #login_password {
     border-radius: 10px;
     padding: 5px;
     font-size: 20px;
-***REMOVED***
+}
 
 #login_submit {
     text-align: center;
@@ -139,4 +139,4 @@ h1 {
     border-radius: 10px;
     background-color: #c9e0a3;
     -webkit-appearance: none;
-***REMOVED***
+}

@@ -1,13 +1,13 @@
 Hello
 <?
-***REMOVED***
+session_start();
 
 if(isset($_SESSION['user'])){
     $text = $_POST['text'];
     echo $text;
     $fp = fopen("log.html", 'a');
-    fwrite($fp, "<div class='msgln'><div class='user'>".$_SESSION['user'].": <br/>***REMOVED***<div class= 'message msj'>".stripslashes(htmlspecialchars($text))."<br>***REMOVED******REMOVED***");
-    fclose($fp);***REMOVED***
+    fwrite($fp, "<div class='msgln'><div class='user'>".$_SESSION['user'].": <br/></div><div class= 'message msj'>".stripslashes(htmlspecialchars($text))."<br></div></div>");
+    fclose($fp);}
 /*
 background-color: white;
     padding: 5px;
@@ -15,4 +15,4 @@ background-color: white;
     border-radius: 15px;
     margin: 10px;
     margin-bottom: 10px;*/
-***REMOVED***
+?>

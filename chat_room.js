@@ -5,17 +5,17 @@ const main = function(){
 		    var clientmsg = $("#message").val();
         console.log(clientmsg);
         if (clientmsg != ''){
-		        $.post("post.php", {text: clientmsg***REMOVED***);
-        ***REMOVED***;
+		        $.post("post.php", {text: clientmsg});
+        };
         $("#message").val('');
         loadLog();// need to change: use javascript to display first, then do PHP data store. Otherwise loading is very slow!!!
 		    return false;
-	  ***REMOVED***);
+	  });
 
     $("#exit").click(function(){
 		    var exit = confirm("Are you sure you want to end the session?");
-		    if(exit==true){window.location = 'chat_room.php?logout=true';***REMOVED***
-	  ***REMOVED***);
+		    if(exit==true){window.location = 'chat_room.php?logout=true';}
+	  });
 
     function loadLog(){
 		    var oldHeight = $("#chatbox")[0].scrollHeight; //Scroll height before the request
@@ -29,15 +29,15 @@ const main = function(){
                 //Auto-scroll
 				        var newHeight = $("#chatbox")[0].scrollHeight; //Scroll height after the request
 				        if(newHeight > oldHeight){
-					          $("#chatbox").animate({ scrollTop: newHeight ***REMOVED***, 'normal'); //Autoscroll to bottom of div
-				        ***REMOVED***
-		  	    ***REMOVED***,
-		    ***REMOVED***);
-	  ***REMOVED***
+					          $("#chatbox").animate({ scrollTop: newHeight }, 'normal'); //Autoscroll to bottom of div
+				        }
+		  	    },
+		    });
+	  }
 
 
 
 //    setInterval (loadLog, 150);
 
-***REMOVED***;
+};
 $(document).ready(main);
